@@ -2,9 +2,13 @@
 
 namespace Database\Seeders;
 
+// Importato Model
 use App\Models\Train;
+
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+
+// Usato Faker
 use Faker\Generator as Faker;
 
 

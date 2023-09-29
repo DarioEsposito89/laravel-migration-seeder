@@ -35,8 +35,8 @@
                         <td>{{$train['orario_di_arrivo']}}</td>
                         <td>{{$train['codice_treno']}}</td>
                         <td>{{$train['numero_carrozze']}}</td>
-                        <td>{{$train['treno_in_orario']}}</td>
-                        <td>{{$train['treno_cancellato']}}</td>
+                        <td>{{$train['treno_in_orario'] ? "Sì" : "No"}}</td>
+                        <td>{{$train['treno_cancellato'] ? "Sì" : "No"}}</td>
                     </tr>
                     @endforeach
                 </tbody>
